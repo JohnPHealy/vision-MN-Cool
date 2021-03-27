@@ -76,8 +76,8 @@
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.2.2\Editor\2D\PixelPerfectCameraEditor.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.2.2\Editor\2D\ShapeEditor\EditorTool\GenericScriptablePathInspector.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.2.2\Editor\2D\ShapeEditor\EditablePath\IEditablePath.cs" />
-    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.2.2\Editor\2D\ShapeEditor\GUIFramework\DefaultControl.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.2.2\Editor\2D\ShapeEditor\Selection\ISelectable.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.2.2\Editor\2D\ShapeEditor\GUIFramework\DefaultControl.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.2.2\Editor\EditorUtils.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.2.2\Editor\2D\ShapeEditor\EditablePath\EditablePathExtensions.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.2.2\Editor\Overrides\DepthOfFieldEditor.cs" />
@@ -86,8 +86,8 @@
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.2.2\Editor\2D\ShadowCaster2DShapeTool.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.2.2\Editor\UniversalRenderPipelineAssetEditor.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.2.2\Editor\ShaderGUI\ShadingModels\SimpleLitGUI.cs" />
-    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.2.2\Editor\Overrides\ShadowsMidtonesHighlightsEditor.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.2.2\Editor\2D\ShapeEditor\Selection\ISelection.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.2.2\Editor\Overrides\ShadowsMidtonesHighlightsEditor.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.2.2\Editor\2D\ShapeEditor\Shapes\Spline.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.2.2\Editor\ShaderGraph\AssetCallbacks\CreateSpriteLitShaderGraph.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.2.2\Editor\UniversalRenderPipelineMaterialUpgrader.cs" />

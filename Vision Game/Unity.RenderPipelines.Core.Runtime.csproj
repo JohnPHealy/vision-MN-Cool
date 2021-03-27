@@ -58,10 +58,10 @@
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@10.2.2\Runtime\Volume\VolumeProfile.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@10.2.2\Runtime\Textures\RTHandle.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@10.2.2\Runtime\Camera\FreeCamera.cs" />
-    <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@10.2.2\Runtime\RenderGraph\RenderGraphPass.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@10.2.2\Runtime\Common\XRGraphics.cs" />
-    <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@10.2.2\Runtime\Debugging\DebugUI.Panel.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@10.2.2\Runtime\RenderGraph\RenderGraphPass.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@10.2.2\Runtime\Utilities\ResourceReloader.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@10.2.2\Runtime\Debugging\DebugUI.Panel.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@10.2.2\Runtime\Common\CoreAttributes.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@10.2.2\Runtime\Debugging\Prefabs\Scripts\DebugUIHandlerVector3.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@10.2.2\Runtime\Debugging\Prefabs\Scripts\DebugUIHandlerIndirectToggle.cs" />

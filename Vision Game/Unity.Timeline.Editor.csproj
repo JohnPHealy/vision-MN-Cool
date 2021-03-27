@@ -245,8 +245,8 @@
     <Compile Include="Library\PackageCache\com.unity.timeline@1.4.7\Editor\Manipulators\Trim\ITrimItemMode.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.4.7\Editor\Signals\SignalEventDrawer.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.4.7\Editor\Actions\IMenuChecked.cs" />
-    <Compile Include="Library\PackageCache\com.unity.timeline@1.4.7\Editor\Actions\IAction.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.4.7\Editor\treeview\Drawers\ClipDrawer.cs" />
+    <Compile Include="Library\PackageCache\com.unity.timeline@1.4.7\Editor\Actions\IAction.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.4.7\Editor\Utilities\Scopes\GUIMixedValueScope.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.4.7\Editor\Utilities\TrackModifier.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.4.7\Editor\Manipulators\Move\MoveItemHandler.cs" />

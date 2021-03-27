@@ -652,9 +652,19 @@
       <Name>Unity.ShaderGraph.Editor</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
+    <ProjectReference Include="Cinemachine.csproj">
+      <Project>{190D0333-558B-453A-23AF-004D06F86A4F}</Project>
+      <Name>Cinemachine</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
     <ProjectReference Include="Unity.VSCode.Editor.csproj">
       <Project>{01174150-F446-B1CB-0510-A4254D0C78F3}</Project>
       <Name>Unity.VSCode.Editor</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="com.unity.cinemachine.editor.csproj">
+      <Project>{A329881C-668E-51E5-D0CD-C772821B0CC9}</Project>
+      <Name>com.unity.cinemachine.editor</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="Unity.RenderPipelines.Universal.Shaders.csproj">
@@ -735,16 +745,6 @@
     <ProjectReference Include="Unity.Mathematics.csproj">
       <Project>{1C702C95-A449-355F-97C3-799CD59FF781}</Project>
       <Name>Unity.Mathematics</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
-    <ProjectReference Include="com.unity.cinemachine.editor.csproj">
-      <Project>{A329881C-668E-51E5-D0CD-C772821B0CC9}</Project>
-      <Name>com.unity.cinemachine.editor</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
-    <ProjectReference Include="Cinemachine.csproj">
-      <Project>{190D0333-558B-453A-23AF-004D06F86A4F}</Project>
-      <Name>Cinemachine</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
   </ItemGroup>

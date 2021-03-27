@@ -57,8 +57,8 @@
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.2.2\Runtime\2D\Shadows\ShadowUtility.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.2.2\Runtime\XR\XRLayout.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.2.2\Runtime\ScriptableRenderer.cs" />
-    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.2.2\Runtime\Overrides\Tonemapping.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.2.2\Runtime\2D\Passes\Utility\Light2DLookupTexture.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.2.2\Runtime\Overrides\Tonemapping.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.2.2\Runtime\2D\Light2D.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.2.2\Runtime\Passes\DeferredPass.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.2.2\Runtime\RendererFeatures\ScreenSpaceAmbientOcclusion.cs" />
