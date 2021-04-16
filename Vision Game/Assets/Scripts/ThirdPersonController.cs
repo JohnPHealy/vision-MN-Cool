@@ -16,6 +16,7 @@ namespace UnityEngine.InputSystem
         private Vector3 movement;
         private CharacterController myController;
         private float rotateVelocity;
+        private bool canJump;
 
         void Start()
         {
@@ -36,6 +37,19 @@ namespace UnityEngine.InputSystem
         {
             var moveInput = context.ReadValue<Vector2>();
             movement = new Vector3(moveInput.x, 0f, moveInput.y).normalized;
+        }
+
+        public void Jump(InputAction.CallbackContext context)
+        {
+            if (canJump)
+            {
+
+            }
+        }
+
+        public void Attack(InputAction.CallbackContext context)
+        {
+            
         }
     }
 }
