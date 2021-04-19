@@ -6,15 +6,25 @@ using UnityEngine.Events;
 public class Timer : MonoBehaviour
 {
     [SerializeField] private UnityEvent timerEnd;
-    [SerializeField] private float timeDuration = 1.0f;
+    [SerializeField] private UnityEvent timer2End;
+    [SerializeField] private float timerDuration = 1.0f;
 
     void Start()
     {
-        StartCoroutine("SetTimer");
+        StartCoroutine("SetTimer1");
     }
 
-    IEnumerable SetTimer()
+    IEnumerator SetTimer1()
     {
-        yield return new WaitForSeconds(timeDuration);
+        yield return new WaitForSeconds(timerDuration);
+        timerEnd.Invoke();
+        StartCoroutine("SetTimer2");
+    }
+
+    IEnumerator SetTimer2()
+    {
+        yield return new WaitForSeconds(timerDuration);
+        timer2End.Invoke();
+        StartCoroutine("SetTimer1");
     }
 }

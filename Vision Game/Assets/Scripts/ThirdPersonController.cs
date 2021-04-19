@@ -18,7 +18,10 @@ namespace UnityEngine.InputSystem
         private CharacterController myController;
         private Vector3 movement;
         private float rotateVelocity;
-        
+
+        public Transform bulletSpawner;
+        public GameObject bullet;
+
         void Start()
         {
             myController = GetComponent<CharacterController>();
@@ -59,7 +62,7 @@ namespace UnityEngine.InputSystem
 
         public void Attack(InputAction.CallbackContext context)
         {
-            
+            GameObject.Instantiate(bullet, bulletSpawner.position, Quaternion.identity);
         }
     }
 }
