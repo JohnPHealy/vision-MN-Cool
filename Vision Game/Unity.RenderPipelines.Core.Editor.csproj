@@ -69,8 +69,8 @@
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@10.2.2\Editor\LookDev\LookDev.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@10.2.2\Editor\Volume\Drawers\IntParameterDrawer.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@10.2.2\Editor\CoreEditorUtils.cs" />
-    <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@10.2.2\Editor\CoreEditorDrawers.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@10.2.2\Editor\Gizmo\HierarchicalBox.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@10.2.2\Editor\CoreEditorDrawers.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@10.2.2\Editor\Lighting\CoreLightEditorUtilities.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@10.2.2\Editor\MaterialUpgrader.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@10.2.2\Editor\Debugging\DebugWindow.cs" />

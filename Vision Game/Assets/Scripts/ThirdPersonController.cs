@@ -12,12 +12,13 @@ namespace UnityEngine.InputSystem
         [SerializeField] private float speed = 10f;
         [SerializeField] private float rotationSmoothing = 0.1f;
         [SerializeField] private Transform cam;
+        [SerializeField] private float gravity = 20f;
+        [SerializeField] private float jumpAmount = 7f;
 
-        private Vector3 movement;
         private CharacterController myController;
+        private Vector3 movement;
         private float rotateVelocity;
-        private bool canJump;
-
+        
         void Start()
         {
             myController = GetComponent<CharacterController>();
@@ -25,7 +26,10 @@ namespace UnityEngine.InputSystem
 
         void Update()
         {
-            if (movement == Vector3.zero) return;
+            movement.y -= gravity * Time.deltaTime;
+            Vector3 moveV = new Vector3(0, movement.y, 0f);
+            myController.Move(moveV * Time.deltaTime);
+            if (movement.x == 0f && movement.z == 0f) return;
             float targetAngle = Mathf.Atan2(movement.x, movement.z) * Mathf.Rad2Deg + cam.eulerAngles.y;
             float angle = Mathf.SmoothDampAngle(transform.eulerAngles.y, targetAngle, ref rotateVelocity, rotationSmoothing);
             transform.rotation = Quaternion.Euler(0f, angle, 0f);
@@ -37,13 +41,19 @@ namespace UnityEngine.InputSystem
         {
             var moveInput = context.ReadValue<Vector2>();
             movement = new Vector3(moveInput.x, 0f, moveInput.y).normalized;
+            StartCoroutine("SetTimer");
+        }
+
+        IEnumerable SetTimer()
+        {
+            yield return new WaitForSeconds(1);
         }
 
         public void Jump(InputAction.CallbackContext context)
         {
-            if (canJump)
+            if (myController.isGrounded)
             {
-
+                movement.y = jumpAmount;
             }
         }
 
