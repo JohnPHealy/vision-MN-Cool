@@ -15,4 +15,13 @@ public class BulletMove : MonoBehaviour
     {
         transform.position += Vector3.forward * Time.deltaTime * bulletSpeed;
     }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.tag == "Enemy")
+        {
+            Destroy(this.gameObject);
+            Destroy(other.gameObject);
+        }
+    }
 }

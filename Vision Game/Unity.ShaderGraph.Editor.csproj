@@ -219,9 +219,9 @@
     <Compile Include="Library\PackageCache\com.unity.shadergraph@10.2.2\Editor\Drawing\Manipulators\ResizeSideHandle.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@10.2.2\Editor\Data\Graphs\CubemapMaterialSlot.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@10.2.2\Editor\Util\CreateSerializableGraph.cs" />
-    <Compile Include="Library\PackageCache\com.unity.shadergraph@10.2.2\Editor\Generation\TargetResources\BlockFields.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@10.2.2\Editor\Data\Interfaces\Graph\IOnAssetEnabled.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@10.2.2\Editor\Util\ValueUtilities.cs" />
+    <Compile Include="Library\PackageCache\com.unity.shadergraph@10.2.2\Editor\Generation\TargetResources\BlockFields.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@10.2.2\Editor\Data\Nodes\Utility\KeywordNode.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@10.2.2\Editor\Data\Graphs\SerializableMesh.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@10.2.2\Editor\Data\Interfaces\Graph\SlotReference.cs" />
@@ -513,10 +513,10 @@
     <Compile Include="Library\PackageCache\com.unity.shadergraph@10.2.2\Editor\Drawing\Inspector\TabbedView\TabbedView.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@10.2.2\Editor\Data\Nodes\Math\Round\SignNode.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@10.2.2\Editor\Data\Graphs\SamplerStateMaterialSlot.cs" />
-    <Compile Include="Library\PackageCache\com.unity.shadergraph@10.2.2\Editor\Generation\Controls.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@10.2.2\Editor\Data\Nodes\Math\Basic\AddNode.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@10.2.2\Editor\Serialization\SerializationExtensions.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@10.2.2\Editor\Drawing\Views\MaterialNodeView.cs" />
+    <Compile Include="Library\PackageCache\com.unity.shadergraph@10.2.2\Editor\Generation\Controls.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@10.2.2\Editor\Generation\Data\KeywordEntry.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@10.2.2\Editor\Data\Graphs\ShaderGraphRequirements.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@10.2.2\Editor\Data\Interfaces\IMayRequireMeshUV.cs" />

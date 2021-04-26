@@ -5,8 +5,6 @@ namespace UnityEngine.InputSystem
     using UnityEngine;
     using UnityEngine.InputSystem;
 
-    [RequireComponent(typeof(CharacterController))]
-
     public class ThirdPersonController : MonoBehaviour
     {
         [SerializeField] private float speed = 10f;
@@ -44,7 +42,6 @@ namespace UnityEngine.InputSystem
         {
             var moveInput = context.ReadValue<Vector2>();
             movement = new Vector3(moveInput.x, 0f, moveInput.y).normalized;
-            StartCoroutine("SetTimer");
         }
 
         IEnumerable SetTimer()
