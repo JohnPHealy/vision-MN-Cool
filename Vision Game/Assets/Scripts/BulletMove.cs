@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class BulletMove : MonoBehaviour
 {
+    [SerializeField] private GameManager manager;
+    [SerializeField] private int scoreToGive = 50;
     private float bulletSpeed = 5;
 
     void Start()
@@ -20,8 +22,8 @@ public class BulletMove : MonoBehaviour
     {
         if (other.gameObject.tag == "Enemy")
         {
-            Destroy(this.gameObject);
             Destroy(other.gameObject);
+            manager.AddScore(scoreToGive);
         }
     }
 }
