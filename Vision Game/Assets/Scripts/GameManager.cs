@@ -1,7 +1,10 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.Events;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -9,9 +12,14 @@ public class GameManager : MonoBehaviour
     [SerializeField] private UnityEvent<string> addScore;
     private Vector3 checkPointPos;
     private int score;
+    public TextMeshProUGUI gameOverText;
+    public TextMeshProUGUI victoryText;
+    public bool isGameActive;
+    public Button restartButton;
 
     private void Start()
     {
+        isGameActive = true;
         checkPointPos = player.transform.position;
         score = 0;
         UpdateUI();
@@ -44,5 +52,19 @@ public class GameManager : MonoBehaviour
     public void UnpauseGame()
     {
         Time.timeScale = 1;
+    }
+
+    public void GameOver()
+    {
+        Time.timeScale = 0;
+        isGameActive = false;
+        gameOverText.gameObject.SetActive(true);
+        victoryText.gameObject.SetActive(true);
+        restartButton.gameObject.SetActive(true);
+    }
+
+    public void Restart()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 }

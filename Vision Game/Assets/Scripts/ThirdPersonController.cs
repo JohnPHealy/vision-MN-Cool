@@ -11,7 +11,7 @@ namespace UnityEngine.InputSystem
         [SerializeField] private float rotationSmoothing = 0.1f;
         [SerializeField] private Transform cam;
         [SerializeField] private float gravity = 20f;
-        [SerializeField] private float jumpAmount = 7f;
+        [SerializeField] private float jumpAmount = 10f;
 
         private CharacterController myController;
         private Vector3 movement;
@@ -59,7 +59,7 @@ namespace UnityEngine.InputSystem
 
         public void Attack(InputAction.CallbackContext context)
         {
-            GameObject.Instantiate(bullet, bulletSpawner.position, Quaternion.identity);
+            GameObject.Instantiate(bullet, bulletSpawner.position, transform.rotation);
         }
     }
 }
