@@ -130,6 +130,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerCheck: {fileID: 8010421867826628161}
   manager: {fileID: 0}
+  scoreToGive: 50
 --- !u!54 &214976066251306223
 Rigidbody:
   m_ObjectHideFlags: 0
