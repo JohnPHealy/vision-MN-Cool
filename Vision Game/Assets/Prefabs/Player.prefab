@@ -484,7 +484,7 @@ MonoBehaviour:
   m_Orbits:
   - m_Height: 4
     m_Radius: 5
-  - m_Height: 2.7
+  - m_Height: 2.5
     m_Radius: 5.95
   - m_Height: 1
     m_Radius: 3.45
@@ -676,7 +676,7 @@ MonoBehaviour:
   m_StreamingVersion: 20170927
   m_Priority: 10
   m_StandbyUpdate: 2
-  m_LookAt: {fileID: 0}
+  m_LookAt: {fileID: 3622516045075514843}
   m_Follow: {fileID: 0}
   m_Lens:
     FieldOfView: 40
