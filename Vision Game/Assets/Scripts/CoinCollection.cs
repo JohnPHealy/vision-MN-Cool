@@ -13,7 +13,7 @@ public class CoinCollection : MonoBehaviour
         transform.Rotate(rotationSpeed * Time.deltaTime, 0, 0);
     }
 
-    private void OnCollisionEnter(Collision other)
+    private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.tag == "Player")
         {
