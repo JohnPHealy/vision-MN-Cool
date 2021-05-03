@@ -65,4 +65,9 @@ public class GameManager : MonoBehaviour
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
+
+    public void Finish()
+    {
+        SceneManager.LoadScene("VictoryScene");
+    }
 }
