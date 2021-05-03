@@ -13,7 +13,6 @@ public class GameManager : MonoBehaviour
     private Vector3 checkPointPos;
     private int score;
     public TextMeshProUGUI gameOverText;
-    public TextMeshProUGUI victoryText;
     public bool isGameActive;
     public Button restartButton;
 
@@ -59,7 +58,6 @@ public class GameManager : MonoBehaviour
         Time.timeScale = 0;
         isGameActive = false;
         gameOverText.gameObject.SetActive(true);
-        victoryText.gameObject.SetActive(true);
         restartButton.gameObject.SetActive(true);
     }
 
