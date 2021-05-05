@@ -46,7 +46,7 @@ namespace UnityEngine.InputSystem
 
         IEnumerable SetTimer()
         {
-            yield return new WaitForSeconds(1);
+            yield return new WaitForSeconds(1/2);
         }
 
         public void Jump(InputAction.CallbackContext context)

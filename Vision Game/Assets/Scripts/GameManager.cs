@@ -11,16 +11,38 @@ public class GameManager : MonoBehaviour
     [SerializeField] private GameObject player;
     [SerializeField] private UnityEvent<string> addScore;
     private Vector3 checkPointPos;
+    public GameObject title;
+    public TextMeshProUGUI scoreText;
+    public TextMeshProUGUI scoreValue;
+    public GameObject pauseMenu;
     private int score;
     public TextMeshProUGUI gameOverText;
     public bool isGameActive;
     public Button restartButton;
+    public GameObject coinsfx;
+    public TextMeshProUGUI coinText;
+    public Button resumeButton;
 
     private void Start()
     {
-        isGameActive = true;
+        isGameActive = false;
+        Time.timeScale = 0;
         checkPointPos = player.transform.position;
         score = 0;
+        title.gameObject.SetActive(true);
+        scoreText.gameObject.SetActive(false);
+        scoreValue.gameObject.SetActive(false);
+        pauseMenu.gameObject.SetActive(false);
+    }
+
+    public void StartGame()
+    {
+        isGameActive = true;
+        player.GetComponent<AudioSource>().enabled = true;
+        title.gameObject.SetActive(false);
+        scoreText.gameObject.SetActive(true);
+        scoreValue.gameObject.SetActive(true);
+        pauseMenu.gameObject.SetActive(true);
         UpdateUI();
         PauseGame();
     }
@@ -57,6 +79,7 @@ public class GameManager : MonoBehaviour
     {
         Time.timeScale = 0;
         isGameActive = false;
+        player.GetComponent<AudioSource>().enabled = false;
         gameOverText.gameObject.SetActive(true);
         restartButton.gameObject.SetActive(true);
     }
@@ -68,6 +91,24 @@ public class GameManager : MonoBehaviour
 
     public void Finish()
     {
+        player.GetComponent<AudioSource>().enabled = false;
         SceneManager.LoadScene("VictoryScene");
+    }
+
+    public void CoinCollect()
+    {
+        Time.timeScale = 0;
+        isGameActive = false;
+        coinsfx.GetComponent<AudioSource>().enabled = true;
+        coinText.gameObject.SetActive(true);
+        resumeButton.gameObject.SetActive(true);
+    }
+
+    public void Resume()
+    {
+        Time.timeScale = 1;
+        isGameActive = true;
+        coinText.gameObject.SetActive(false);
+        resumeButton.gameObject.SetActive(false);
     }
 }

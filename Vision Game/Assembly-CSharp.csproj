@@ -54,6 +54,7 @@
     <UnityVersion>2020.2.2f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\FinishGame.cs" />
     <Compile Include="Assets\Scripts\Teleporter.cs" />
     <Compile Include="Assets\Scripts\Timer.cs" />
     <Compile Include="Assets\Scripts\AIMovement.cs" />
@@ -65,7 +66,7 @@
     <Compile Include="Assets\Scripts\ThirdPersonController.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\CoinCollection.cs" />
-    <Compile Include="Assets\Scripts\FinishGame.cs" />
+    <Compile Include="Assets\Scripts\CoinSound.cs" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
