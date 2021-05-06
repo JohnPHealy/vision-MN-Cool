@@ -1,4 +1,0 @@
-# Starting compiling Unity.Timeline.dll
-C:\Program Files\Unity\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-ca4bd24a8424813468a95e26999b4372
-# Starting compiling Unity.Timeline.Editor.dll
-C:\Program Files\Unity\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-84cd61c9c52d2e944b40fac4cb8a3fc9

@@ -13,7 +13,7 @@ public class PlayerAttack : MonoBehaviour
         if (other.gameObject.tag == "Bullet")
         {
             manager.AddScore(scoreToGive);
-            Destroy(this.gameObject);
+            Destroy(gameObject);
         }
     }
     private void OnCollisionEnter(Collision other)

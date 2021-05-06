@@ -9,6 +9,7 @@ using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {
     [SerializeField] private GameObject player;
+    [SerializeField] private GameObject boss;
     [SerializeField] private UnityEvent<string> addScore;
     private Vector3 checkPointPos;
     public GameObject title;
@@ -22,6 +23,9 @@ public class GameManager : MonoBehaviour
     public GameObject coinsfx;
     public TextMeshProUGUI coinText;
     public Button resumeButton;
+    public GameObject heart;
+    public GameObject heart1;
+    public GameObject heart2;
 
     private void Start()
     {
@@ -110,5 +114,27 @@ public class GameManager : MonoBehaviour
         isGameActive = true;
         coinText.gameObject.SetActive(false);
         resumeButton.gameObject.SetActive(false);
+    }
+
+    public void BossHealth()
+    {
+        heart.gameObject.SetActive(true);
+        heart1.gameObject.SetActive(true);
+        heart2.gameObject.SetActive(true);
+    }
+
+    public void LoseHeart1()
+    {
+        heart.gameObject.SetActive(false);
+    }
+
+    public void LoseHeart2()
+    {
+        heart1.gameObject.SetActive(false);
+    }
+
+    public void LoseHeart3()
+    {
+        heart2.gameObject.SetActive(false);
     }
 }
