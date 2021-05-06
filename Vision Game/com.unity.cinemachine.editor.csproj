@@ -103,8 +103,8 @@
     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.6.4\Editor\Editors\CinemachineSmoothPathEditor.cs" />
     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.6.4\Editor\Editors\CinemachineBrainEditor.cs" />
     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.6.4\Editor\Editors\CinemachineMixingCameraEditor.cs" />
-    <Compile Include="Library\PackageCache\com.unity.cinemachine@2.6.4\Editor\Utility\InspectorUtility.cs" />
     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.6.4\Editor\Editors\CinemachineComposerEditor.cs" />
+    <Compile Include="Library\PackageCache\com.unity.cinemachine@2.6.4\Editor\Utility\InspectorUtility.cs" />
     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.6.4\Editor\PropertyDrawers\VcamTargetPropertyDrawer.cs" />
     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.6.4\Editor\Windows\WaveformWindow.cs" />
     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.6.4\Editor\Utility\BaseEditor.cs" />

@@ -1,8 +1,16 @@
 /[Ll]ibrary/
 /[Ll]ogs/
 /[Oo]bj/
+/[Tt]emp/
+
+!/[Aa]ssets/**/*.meta
 
 .vs/
 
 *.csproj
+*.unityproj
 *.sln
+*.suo
+*.tmp
+*.json
+*.pdb

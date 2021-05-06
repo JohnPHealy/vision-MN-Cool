@@ -104,9 +104,9 @@
     <Compile Include="Library\PackageCache\com.unity.shadergraph@10.2.2\Editor\Util\TypeMapper.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@10.2.2\Editor\Data\Legacy\ILegacyTarget.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@10.2.2\Editor\Data\Nodes\Input\Geometry\BitangentVectorNode.cs" />
-    <Compile Include="Library\PackageCache\com.unity.shadergraph@10.2.2\Editor\Generation\Enumerations\NormalDropOffSpace.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@10.2.2\Editor\Drawing\Views\Slots\GradientSlotControlView.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@10.2.2\Editor\Generation\Collections\PassCollection.cs" />
+    <Compile Include="Library\PackageCache\com.unity.shadergraph@10.2.2\Editor\Generation\Enumerations\NormalDropOffSpace.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@10.2.2\Editor\Util\MessageManager.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@10.2.2\Editor\Data\Util\SerializationHelper.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@10.2.2\Editor\Data\Nodes\Math\Vector\RotateAboutAxisNode.cs" />
@@ -445,12 +445,12 @@
     <Compile Include="Library\PackageCache\com.unity.shadergraph@10.2.2\Editor\Generation\Enumerations\ShaderModel.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@10.2.2\Editor\Data\Graphs\DynamicVectorMaterialSlot.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@10.2.2\Editor\Generation\ShaderGraphVfxAsset.cs" />
-    <Compile Include="Library\PackageCache\com.unity.shadergraph@10.2.2\Editor\Generation\Processors\ShaderSpliceUtil.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@10.2.2\Editor\Drawing\Controls\ColorControl.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@10.2.2\Editor\Data\Nodes\Math\Interpolation\LerpNode.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@10.2.2\Editor\Data\Nodes\Procedural\Shape\EllipseNode.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@10.2.2\Editor\Drawing\Controls\ToggleControl.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@10.2.2\Editor\Drawing\Views\Slots\BooleanSlotControlView.cs" />
+    <Compile Include="Library\PackageCache\com.unity.shadergraph@10.2.2\Editor\Generation\Processors\ShaderSpliceUtil.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@10.2.2\Editor\Data\Nodes\UV\TwirlNode.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@10.2.2\Editor\Drawing\Views\ContextView.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@10.2.2\Editor\Generation\Enumerations\Blend.cs" />
@@ -486,8 +486,8 @@
     <Compile Include="Library\PackageCache\com.unity.shadergraph@10.2.2\Editor\Data\Graphs\PreviewMode.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@10.2.2\Editor\Data\Nodes\Utility\Logic\NandNode.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@10.2.2\Editor\Data\Attributes\NeverAllowedByTargetAttribute.cs" />
-    <Compile Include="Library\PackageCache\com.unity.shadergraph@10.2.2\Editor\Data\Legacy\SlotReference0.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@10.2.2\Editor\Drawing\Inspector\PropertyDrawers\ColorPropertyDrawer.cs" />
+    <Compile Include="Library\PackageCache\com.unity.shadergraph@10.2.2\Editor\Data\Legacy\SlotReference0.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@10.2.2\Editor\Data\Graphs\IMaterialGraphAsset.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@10.2.2\Editor\Data\Interfaces\IMayRequireDepthTexture.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@10.2.2\Editor\Data\Graphs\Vector1MaterialSlot.cs" />
@@ -566,8 +566,8 @@
     <Compile Include="Library\PackageCache\com.unity.shadergraph@10.2.2\Editor\Drawing\Manipulators\WindowDraggable.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@10.2.2\Editor\Data\Legacy\SpriteLitMasterNode1.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@10.2.2\Editor\Drawing\Inspector\PropertyDrawers\IntegerPropertyDrawer.cs" />
-    <Compile Include="Library\PackageCache\com.unity.shadergraph@10.2.2\Editor\Data\Attributes\ContextFilterableAttribute.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@10.2.2\Editor\Generation\Processors\ShaderGeneratorNames.cs" />
+    <Compile Include="Library\PackageCache\com.unity.shadergraph@10.2.2\Editor\Data\Attributes\ContextFilterableAttribute.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@10.2.2\Editor\Data\Util\StackPool.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@10.2.2\Editor\Drawing\MaterialGraphPreviewGenerator.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@10.2.2\Editor\Data\Nodes\Math\Trigonometry\ArcsineNode.cs" />
@@ -632,8 +632,8 @@
     <Compile Include="Library\PackageCache\com.unity.shadergraph@10.2.2\Editor\Data\Graphs\SerializableVirtualTexture.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@10.2.2\Editor\Data\Nodes\Utility\Logic\AndNode.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@10.2.2\Editor\Drawing\Views\NodeSettingsView.cs" />
-    <Compile Include="Library\PackageCache\com.unity.shadergraph@10.2.2\Editor\Data\Nodes\Input\Basic\ColorNode.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@10.2.2\Editor\Data\Graphs\SamplerStateShaderProperty.cs" />
+    <Compile Include="Library\PackageCache\com.unity.shadergraph@10.2.2\Editor\Data\Nodes\Input\Basic\ColorNode.cs" />
     <None Include="Library\PackageCache\com.unity.shadergraph@10.2.2\Editor\Resources\Shaders\BlitNoAlpha.shader" />
     <None Include="Library\PackageCache\com.unity.shadergraph@10.2.2\Editor\Resources\Styles\TabbedView.uss" />
     <None Include="Library\PackageCache\com.unity.shadergraph@10.2.2\Editor\Resources\Styles\Controls\IntegerControlView.uss" />
