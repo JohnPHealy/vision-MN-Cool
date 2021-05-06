@@ -1,1 +1,7 @@
+/[Ll]ibrary/
+/[Ll]ogs/
+/[Oo]bj/
+
+.vs/
+
 *.csproj
